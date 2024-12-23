@@ -19,7 +19,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/", () => "Hello Developer!")
+app.MapGet("/", () => "Hello test!")
    .WithTags("Greetings!");
 
 ConfigurationManager config = builder.Configuration;
